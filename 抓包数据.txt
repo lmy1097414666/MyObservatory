@@ -1,0 +1,28 @@
+抓包数据
+
+GET /locspc/android_data/fnd_uc.xml HTTP/1.1
+Cache-Control: max-age=0
+Host: pda.weather.gov.hk
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.13 (Android 6.0.1; Netease MuMu) MyObservatory/4.20.4
+
+
+
+
+HTTP/1.1 200 OK
+Date: Tue, 14 Dec 2021 13:35:18 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Referrer-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Tue, 14 Dec 2021 11:45:39 GMT
+Accept-Ranges: bytes
+Content-Length: 2928
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self';
+Keep-Alive: timeout=10, max=97
+Content-Type: text/xml
+Connection: keep-alive
+
+{"bulletin_datetime":"202112141945","general_situation":"隨著東北季候風逐漸緩和，未來一兩日廣東氣溫稍為回升。預料另一股東北季候風將在本週後期影響華南，該區天氣轉涼。此外，位於西北太平洋的熱帶氣旋雷伊將會逐漸增強，在未來數日大致移向菲律賓南部及進入南海，預料隨後轉向偏北移動，並逐漸減弱，但其路徑仍存在變數。與雷伊相關的雲帶會在下週初至中期為南海北部帶來有雨的天氣。","forecast_detail":[{"forecast_date":"20211215","forecast_day_of_week":3,"wind_info":"東至東北風4級。","wx_desc":"短暫時間有陽光。日間溫暖。早晚有一兩陣微雨。","max_temp":24,"min_temp":20,"max_rh":90,"min_rh":60,"wx_icon":"52","psr":"\u4f4e","psr_id":0},{"forecast_date":"20211216","forecast_day_of_week":4,"wind_info":"東至東北風3至4級。","wx_desc":"大致多雲，日間短暫時間有陽光及溫暖。早晚有一兩陣微雨。","max_temp":25,"min_temp":21,"max_rh":90,"min_rh":65,"wx_icon":"52","psr":"\u4f4e","psr_id":0},{"forecast_date":"20211217","forecast_day_of_week":5,"wind_info":"北至東北風4至5級，稍後離岸間中6級。","wx_desc":"初時有一兩陣微雨。日間大致天晴及乾燥，晚上轉涼。","max_temp":24,"min_temp":18,"max_rh":85,"min_rh":50,"wx_icon":"51","psr":"\u4f4e","psr_id":0},{"forecast_date":"20211218","forecast_day_of_week":6,"wind_info":"北至東北風4至5級，離岸間中6級。","wx_desc":"部分時間有陽光及乾燥。早上清涼。","max_temp":20,"min_temp":16,"max_rh":75,"min_rh":50,"wx_icon":"92","psr":"\u4f4e","psr_id":0},{"forecast_date":"20211219","forecast_day_of_week":0,"wind_info":"北至東北風4至5級，離岸間中6級。","wx_desc":"大致天晴及乾燥。早上清涼。","max_temp":20,"min_temp":14,"max_rh":70,"min_rh":40,"wx_icon":"92","psr":"\u4f4e","psr_id":0},{"forecast_date":"20211220","forecast_day_of_week":1,"wind_info":"北至東北風4至5級，離岸間中6級。","wx_desc":"大致多雲。早上清涼。","max_temp":19,"min_temp":16,"max_rh":85,"min_rh":55,"wx_icon":"60","psr":"\u4f4e","psr_id":0},{"forecast_date":"20211221","forecast_day_of_week":2,"wind_info":"北至東北風4至5級，離岸間中6級。","wx_desc":"多雲，有幾陣雨。早晚清涼。","max_temp":19,"min_temp":16,"max_rh":95,"min_rh":75,"wx_icon":"62","psr":"\u4e2d","psr_id":2},{"forecast_date":"20211222","forecast_day_of_week":3,"wind_info":"北至東北風4至5級，離岸間中6級。","wx_desc":"多雲，有幾陣雨。早晚清涼。","max_temp":20,"min_temp":17,"max_rh":90,"min_rh":75,"wx_icon":"62","psr":"\u4e2d","psr_id":2},{"forecast_date":"20211223","forecast_day_of_week":4,"wind_info":"北至東北風4至5級。","wx_desc":"多雲，有一兩陣雨。早上清涼。","max_temp":20,"min_temp":17,"max_rh":90,"min_rh":75,"wx_icon":"62","psr":"\u4e2d\u4f4e","psr_id":1}]}
